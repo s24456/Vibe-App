@@ -10,6 +10,6 @@ namespace Vibe {
         public int     Wiek    { get; set; }
 
         public Abonament?    Abonament { get; set; }
-        public List<Pytanie> Pytania   { get; set; } = new();
+        public List<Test>    Testy     { get; set; } = new();
     }
 }

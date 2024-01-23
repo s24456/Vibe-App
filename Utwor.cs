@@ -12,12 +12,12 @@ namespace Vibe {
         public void OdtworzenieUtworu() { } 
         public void ZarzadzanieUtworami(Uzytkownik uzytkownik) { }
 
-        public static void Usuniecieutworu() { }
+        public static void UsuniecieUtworu() { }
         public static void ZwrocenieDanychOWszystkichUtworach(params string[] daneposzukowe) { }
 
         public string          Gatunek      { get; set; } = null!;
         public int             RokProdukcji { get; set; } = 0;
-        public List<Skladanka> Skladanki    { get; set; } = new();
         public string?         Tekst        { get; set; }
+        public List<Skladanka> Skladanki    { get; set; } = new();
     }
 }

@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Vibe {
-    internal class KampaniaReklamowa : Produkt_KampaniaReklamowa {
+    internal class KampaniaReklamowa{
         public void RozpatrywanieKampaniiReklamowej(Administrator administrator) { }
 
         public static void ZlozenieKampaniiReklamowej(int budzet, int iloscOdtworzen, DateTime okres) { }

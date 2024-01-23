@@ -4,7 +4,7 @@ namespace Vibe {
         public override void WylogowanieUzytkownika() => throw new NotImplementedException();
         public override void ZarzadzanieKontemUzytkownika() => throw new NotImplementedException();
 
-        public string KanałKomunikacji  { get; set; } = null!;
+        public string KanalKomunikacji  { get; set; } = null!;
         public List<string> Uprawnienia { get; set; } = new();
 
         public List<Abonament>         Abonamenty        { get; set; } = new();

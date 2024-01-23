@@ -8,8 +8,6 @@ using System.Threading.Tasks;
 namespace Vibe {
     internal class Abonament {
         public void AktywacjaAbonamentu() { }
-        public void PrzyznanieUzytkownikowiAbonamentu(Uzytkownik uzytkownik) { }
-
         public static void StworzenieAbonamentu() { }
 
         public double Koszt { get; set; }

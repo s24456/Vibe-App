@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Vibe {
-    internal abstract class Produkt : Produkt_KampaniaReklamowa {
+    internal abstract class Produkt{
         public void PolubienieProduktu(Uzytkownik uzytkownik) { }
 
         public string              Nazwa           { get; set; } = null!;
